@@ -5,7 +5,7 @@
     <div class="card-pricing__value">
         <div class="card-pricing__value__console">
             <span>|</span>
-            <p>{{ gameType }}</p>
+            <p>{{ gameType | transformador: 'felipe': '123' }}</p>
         </div>
         <div class="card-pricing__value__money">
             <p class="game-price">{{ gamePrice }}</p>
